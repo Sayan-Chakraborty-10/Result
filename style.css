@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+}
+section{
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 200px;
+    border: 20px solid rgb(79 70 229);
+    border-radius: 20px;
+    background-color: rgb(79 70 229);
+}
+.container1 h4{
+    color: grey;
+}
+.round{
+    width: 100px;
+    border: 1px solid rgb(67 56 202);
+    background-color: rgb(67 56 202);
+    border-radius: 100px;
+}
+.round p{
+    color: grey;
+}
+.section-footer1 p{
+    color: grey;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-reaction{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.reaction1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reaction1 p{
+    color: red;
+}
+.reaction2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reaction2 p{
+    color: gray;
+  }
+.main-memory{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.memory1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.memory1 p{
+  color: orange;
+}
+.memory2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.memory2 p{
+    color: gray;
+  }
+.main-verbal{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.verbal1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.verbal1{
+    color: lightseagreen;
+}
+.verbal2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.verbal2 p{
+    color: gray;
+  }
+.main-visual{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.visual1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.visual1{
+    color: rgb(0, 33, 139);
+}
+.visual2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.visual2 p{
+  color: gray;
+}
+.section-footer2{
+    cursor:pointer;
+    width: 160px;
+    background-color: #03203C;
+    text-align: center;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 5px solid #03203C;
+    border-radius: 30px;
+}
+@media screen and (max-width:576px) {
+    body{
+        width: 50%;
+        margin: 0;
+    }
+    section{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 0;
+    }
+}
